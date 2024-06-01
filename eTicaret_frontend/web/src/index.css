@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+.paginate{
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    font-size: x-small;
+    
+}
+
+.paginate li{
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #334155;
+    color: aliceblue;
+}
